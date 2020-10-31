@@ -1,0 +1,37 @@
+
+
+<graph id="someGraphId">
+    <version>1.0</version>
+    <node id="ESAU">
+      <operator>Mosaic</operator>
+      <sources>
+        <sourceProducts>${sourceProducts}</sourceProducts>
+      </sources>
+	<parameters>
+	    <variables>
+		<variable>
+		    <name>chlor_a</name>
+		    <expression>chlor_a</expression>
+		</variable>
+	    </variables>
+	    <combine>OR</combine>
+	    <crs>GEOGCS["WGS84(DD)", 
+	      DATUM["WGS84", 
+		SPHEROID["WGS84", 6378137.0, 298.257223563]], 
+	      PRIMEM["Greenwich", 0.0], 
+	      UNIT["degree", 0.017453292519943295], 
+	      AXIS["Geodetic longitude", EAST], 
+	      AXIS["Geodetic latitude", NORTH]]</crs>
+	    <orthorectify>false</orthorectify>
+	    <elevationModelName>ACE2_5Min</elevationModelName>
+	    <resampling>Nearest</resampling>
+	    <westBound>-122.17</westBound>
+	    <northBound>32.75</northBound>
+	    <eastBound>-84.59</eastBound>
+	    <southBound>11.94</southBound>
+	    <pixelSizeX>0.01</pixelSizeX>
+	    <pixelSizeY>0.01</pixelSizeY>
+	</parameters>
+    </node>
+  </graph>
+

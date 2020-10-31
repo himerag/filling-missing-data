@@ -1,0 +1,25 @@
+To run dineof:
+
+1)cd to the folder where data is
+2)Execute dineof
+
+C:\>cd dineof_windows\SmallExample
+
+C:\>cd dineof_windows\SmallExample>C:\>cd dineof_windows\dineof.exe dineof.init
+
+
+
+Read/write routines for matlab/Octave. Use:
+% Write a data matrix in the disk
+% "data" is the name of the variable in matlab environment
+% "file.dat" is the name of the file in the disk
+
+gwrite('file.dat',data);
+
+
+%To read that file back to matlab:
+data=gread('file.dat');
+
+
+
+Contact: a.alvera@ulg.ac.be (Aida Alvera)
